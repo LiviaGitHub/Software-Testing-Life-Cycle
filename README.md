@@ -29,13 +29,13 @@ Here are some examples of strategies I have successfully implemented together:
     - Identify potential ambiguities or issues in the requirements before development begins. One effective way to achieve this is by creating test cases early in the process. For instance, test cases can be written in the Gherkin format, which uses plain language to describe scenarios, making them accessible to both technical and non-technical stakeholders.
 
 * Collaboratively Refine the User Story Using BDD
-Refining user stories through BDD enables us to clarify requirements collaboratively. This process involves creating a new ticket linked to the user story, detailing the test specifications required to validate it effectively.
+    - Refining user stories through BDD enables us to clarify requirements collaboratively. This process involves creating a new ticket linked to the user story, detailing the test specifications required to validate it effectively.
 
 * Exploratory Testing
-Incorporating exploratory testing is always a valuable practice. It uncovers edge cases and unexpected scenarios that scripted testing might overlook, enhancing coverage.
+    - Incorporating exploratory testing is always a valuable practice. It uncovers edge cases and unexpected scenarios that scripted testing might overlook, enhancing coverage.
 
 * Test automation
-Building and running automated integration tests before and during delivery to production ensures that system components work seamlessly together, reducing risks and enabling faster feedback loops.
+    - Building and running automated integration tests before and during delivery to production ensures that system components work seamlessly together, reducing risks and enabling faster feedback loops.
 
 By leveraging these strategies in combination, teams can achieve a more robust and streamlined testing process, ultimately delivering higher-quality software.
 
