@@ -14,10 +14,10 @@ Select a software testing strategy that aligns with your project's goals, comple
 * [Shift-Left_Testing]: By starting the testing phase early in the development environment, we identify issues sooner, reduce downstream defects, and enhance overall quality.
 * [Risk-Based_Testing]: Prioritize testing based on areas of the software that pose the highest risk.
     - [Example] Feature Priority: 
-            Payment Gateway	    1 (Critical)
+           `Payment Gateway	    1 (Critical)
             Shopping Cart	    2 (High)
             Order History	    3 (Medium)
-            Product Browsing	4 (Medium)
+            Product Browsing	4 (Medium) `
 * Behavior-Driven Development (BDD): Align development and testing with business requirements using tools like Cucumber.
 * Exploratory Testing: Combine manual testing and creativity to uncover unexpected issues.
 * Test Automation: Automate repetitive test cases to increase speed and coverage.
