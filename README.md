@@ -11,7 +11,7 @@ Before implementing a quality process, it’s essential to define:
 ## 2. Choose a Software Strategy
 Select a software testing strategy that aligns with your project's goals, complexity, and timeline:
 
-* [Shift-Left_Testing]: Focus on testing early in the development lifecycle to detect defects sooner.
+* [Shift-Left_Testing]: By starting the testing phase early in the development environment, we identify issues sooner, reduce downstream defects, and enhance overall quality.
 * [Risk-Based_Testing]: Prioritize testing based on areas of the software that pose the highest risk.
     - [Example] Feature Priority: 
             Payment Gateway	    1 (Critical)
@@ -26,9 +26,9 @@ In my experience, implementing multiple strategies often leads to a more effecti
 Here are some examples of strategies I have successfully implemented together:
 
 * Shift-Left Testing
-By starting the testing phase early in the development environment, we identify issues sooner, reduce downstream defects, and enhance overall quality.
+    - Identify potential ambiguities or issues in the requirements before development begins. One effective way to achieve this is by creating test cases early in the process. For instance, test cases can be written in the Gherkin format, which uses plain language to describe scenarios, making them accessible to both technical and non-technical stakeholders.
 
-* Behavior-Driven Development (BDD)
+* Collaboratively Refine the User Story Using BDD
 Refining user stories through BDD enables us to clarify requirements collaboratively. This process involves creating a new ticket linked to the user story, detailing the test specifications required to validate it effectively.
 
 * Exploratory Testing
