@@ -11,11 +11,11 @@ Before implementing a quality process, it’s essential to define:
 ## 2. Choose a Software Strategy
 Select a software testing strategy that aligns with your project's goals, complexity, and timeline:
 
-* [Shift-Left_Testing]: By starting the testing phase early in the development environment, we identify issues sooner, reduce downstream defects, and enhance overall quality.
-* [Risk-Based_Testing]: Prioritize testing based on areas of the software that pose the highest risk.
-* Behavior-Driven Development (BDD): Align development and testing with business requirements using tools like Cucumber.
-* Exploratory Testing: Combine manual testing and creativity to uncover unexpected issues.
-* Test Automation: Automate repetitive test cases to increase speed and coverage.
+* `Shift-Left Testing:` By starting the testing phase early in the development environment, we identify issues sooner, reduce downstream defects, and enhance overall quality.
+* `Risk-Based_Testing]:` Prioritize testing based on areas of the software that pose the highest risk.
+* `Behavior-Driven Development (BDD):` Align development and testing with business requirements using tools like Cucumber.
+* `Exploratory Testing:` Combine manual testing and creativity to uncover unexpected issues.
+* `Test Automation:` Automate repetitive test cases to increase speed and coverage.
 
 In my experience, implementing multiple strategies often leads to a more effective and efficient process. Combining approaches allows us to address challenges from different angles and ensures more comprehensive testing.
 Here are some examples of strategies I have successfully implemented together:
