@@ -2,13 +2,13 @@
 
 ### Creating a software quality process involves establishing systematic steps to ensure that software meets desired requirements and standards. I am sharing on this page some of the steps that I consider important in creating this process:
 
-1. Define Objectives and Scope
+## 1. Define Objectives and Scope
 Before implementing a quality process, it’s essential to define:
 
 * Objectives: What do you want to achieve? (e.g., reduce production defects by 30%, increase test coverage to 80%).
 * Scope: Identify the areas to be addressed (e.g., critical functionalities, performance, security).
 
-2. Choose a Software Strategy
+## 2. Choose a Software Strategy
 Select a software testing strategy that aligns with your project's goals, complexity, and timeline:
 
 * [Shift-Left_Testing]: Focus on testing early in the development lifecycle to detect defects sooner.
@@ -39,7 +39,7 @@ Building and running automated integration tests before and during delivery to p
 
 By leveraging these strategies in combination, teams can achieve a more robust and streamlined testing process, ultimately delivering higher-quality software.
 
-3. Create a Quality Cycle
+## 3. Create a Quality Cycle
 A typical software quality cycle involves the following stages:
 
 * Planning:
@@ -58,7 +58,7 @@ A typical software quality cycle involves the following stages:
 * Monitoring and Continuous Improvement:
     - Collect metrics and post-production feedback.
 
-4. Define Quality Metrics
+## 4. Define Quality Metrics
 Metrics are essential for measuring and continuously improving the process. Here are some key categories:
 
 [Product_Metrics]
@@ -80,7 +80,7 @@ Metrics are essential for measuring and continuously improving the process. Here
 * Production Defect Rate: Defects found by end users.
 * Customer Satisfaction: Quantitative and qualitative indicators (e.g., NPS, satisfaction surveys).
 
-5. Choose Tools and Infrastructure
+## 5. Choose Tools and Infrastructure
 Tools help automate and monitor the process. Examples:
 
 * Requirements Management: JIRA, Trello.
@@ -88,7 +88,7 @@ Tools help automate and monitor the process. Examples:
 * Production Monitoring: Dynatrace, New Relic.
 * Code Repositories: GitHub, GitLab.
 
-6. Implement Automated Testing
+## 6. Implement Automated Testing
 Automation is critical for efficiency and consistency.
 
 [Types_Automated_Testing]
@@ -100,7 +100,7 @@ Automation is critical for efficiency and consistency.
 * Reduces execution time.
 * Ensures repeatability and consistent coverage.
 
-8. Create Reports and Feedback
+## 7. Create Reports and Feedback
 Regular reporting helps evaluate process effectiveness:
 
 [Real-Time_Dashboards]
@@ -112,7 +112,7 @@ Regular reporting helps evaluate process effectiveness:
 [Post-Release_Feedback]
 * Gather insights from end users for future improvements.
 
-9. Establish a Continuous Improvement Cycle
+## 8. Establish a Continuous Improvement Cycle
 Adopt methodologies like Kaizen to continuously improve the process:
 
 * Regularly analyze metrics and feedback.
