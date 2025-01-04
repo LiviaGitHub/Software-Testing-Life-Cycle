@@ -5,19 +5,14 @@
 ## 1. Define Objectives and Scope
 Before implementing a quality process, it’s essential to define:
 
-* Objectives: What do you want to achieve? (e.g., reduce production defects by 30%, increase test coverage to 80%).
-* Scope: Identify the areas to be addressed (e.g., critical functionalities, performance, security).
+* `Objectives:`  What do you want to achieve? (e.g., reduce production defects by 30%, increase test coverage to 80%).
+* `Scope:` Identify the areas to be addressed (e.g., critical functionalities, performance, security).
 
 ## 2. Choose a Software Strategy
 Select a software testing strategy that aligns with your project's goals, complexity, and timeline:
 
 * [Shift-Left_Testing]: By starting the testing phase early in the development environment, we identify issues sooner, reduce downstream defects, and enhance overall quality.
 * [Risk-Based_Testing]: Prioritize testing based on areas of the software that pose the highest risk.
-    - [Example] Feature Priority:
-           ` Payment Gateway	1 (Critical)`
-            `Shopping Cart	    2 (High)`
-           ` Order History	    3 (Medium)`
-           ` Product Browsing	4 (Medium) `
 * Behavior-Driven Development (BDD): Align development and testing with business requirements using tools like Cucumber.
 * Exploratory Testing: Combine manual testing and creativity to uncover unexpected issues.
 * Test Automation: Automate repetitive test cases to increase speed and coverage.
