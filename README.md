@@ -1,6 +1,6 @@
 # Create a software quality process
 
-### Creating a software quality process involves establishing systematic steps to ensure that software meets desired requirements and standards. I am sharing on this page some of the steps that I consider important in creating this process:
+Creating a software quality process involves establishing systematic steps to ensure that software meets desired requirements and standards. I am sharing on this page some of the steps that I consider important in creating this process:
 
 ## 1. Define Objectives and Scope
 Before implementing a quality process, it’s essential to define:
