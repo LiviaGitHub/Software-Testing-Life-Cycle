@@ -38,7 +38,10 @@ By leveraging these strategies in combination, teams can achieve a more robust a
 A typical software quality cycle involves the following stages:
 
 * Planning:
-    - Define quality requirements. Select tools and methodologies (Agile, DevOps, etc.).
+    - Define quality requirements.
+    - Select tools and methodologies (Agile, DevOps, etc.).
+    - Definition of the test strategy.
+    - Identification of resources (human, environmental and technological) required.
 
 * Development:
     - Apply coding best practices (e.g., code reviews, design patterns).
