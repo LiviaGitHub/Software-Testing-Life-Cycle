@@ -48,6 +48,12 @@ A typical software quality cycle involves the following stages:
 
 * Testing:
     - Implement different test types (unit, integration, system, acceptance).
+    - Example:
+        Type of Testing	        |  What It Tests	                | How It’s Performed               | Examples
+        Functional Testing	    |  Functional requirements	        | Manual or automated	           |  Login, product search
+        Non-Functional Testing	|  System quality attributes        | Usually with specialized tools   | Performance, security testing
+        Manual Testing	        |  Simulates human usage	        | Performed by people	           | Checking design or UX
+        Automated Testing	    |  Repetitive and complex scenarios	| Scripts and tools                | Regression, continuous integration
 
 * Delivery:
     - Conduct final testing and validation with stakeholders.
