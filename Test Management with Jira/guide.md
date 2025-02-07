@@ -31,6 +31,7 @@ JIRA is highly effective for tracking defects, and you can optimize its use for 
         - Defect Type (Functional, UI, Performance).
 
 ### **3. Generate Metrics with JQL Filters**
+
 Use JQL (JIRA Query Language) to create queries that generate specific metrics.
 
 Example Queries:
@@ -48,31 +49,40 @@ issuetype = "Bug" AND severity = "Critical"
 issuetype = "Bug" AND status = "Resolved" AND resolved >= startOfMonth()
 
 ### **4. Use Dashboards and Gadgets**
-    - Create personalized dashboards to visualize metrics in real-time.
+
+Create personalized dashboards to visualize metrics in real-time.
 
 ### **Steps:**
 
-Go to the "Dashboards" tab and click Create Dashboard.
-Add gadgets to display key metrics, such as:
-Issue Statistics: Displays the number of defects by severity or status.
-Pie Chart: Shows the distribution of defect types or test cases.
-Two-Dimensional Filter Statistics: Combines status and priority or module and severity.
-Created vs. Resolved Chart: Compares defects created and resolved over time.
+1. Go to the "Dashboards" tab and click Create Dashboard.
+2. Add gadgets to display key metrics, such as:
+    - Issue Statistics: Displays the number of defects by severity or status.
+    - Pie Chart: Shows the distribution of defect types or test cases.
+    - Two-Dimensional Filter Statistics: Combines status and priority or module and severity.
+    - Created vs. Resolved Chart: Compares defects created and resolved over time.
 
-Example Gadget Configuration:
-Filter: "Open Defects."
-Chart: Pie chart showing defect distribution by severity.
+* Example Gadget Configuration:
+    Filter: "Open Defects."
+    Chart: Pie chart showing defect distribution by severity.
 
 ### **5. Key Test Metrics in JIRA**
 
 Here are some test metrics you can track and how to retrieve them in JIRA:
 
-Metric	How to Retrieve in JIRA
-Test Coverage	Use plugins like Zephyr/Xray to track executed test cases.
-Defects by Module	Link defects to epics or components in the backlog.
-Defect Resolution Rate	JQL Filter: status = "Resolved".
-Reopened Defects	JQL Filter: status = "Reopened".
-Test Execution Rate	Zephyr/Xray: Execution metrics for test cases.
+- Test Coverage	
+    - Use plugins like Zephyr/Xray to track executed test cases.
+
+- Defects 
+    - by Module	Link defects to epics or components in the backlog.
+
+- Defect Resolution Rate	
+    - JQL Filter: status = "Resolved".
+
+- Reopened Defects	
+    - JQL Filter: status = "Reopened".
+
+- Test Execution Rate	
+    - Zephyr/Xray: Execution metrics for test cases.
 
 ### **6. Integrate JIRA with Testing Tools**
 JIRA integrates with several tools to provide detailed test metrics:
