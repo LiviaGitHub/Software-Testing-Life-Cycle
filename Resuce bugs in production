@@ -2,7 +2,7 @@
 
 After defining the objectives and scope—with the goal of reducing bugs in production and focusing on high-risk features —follow these steps to ensure effective testing and quality assurance.
 
-## 📌 1. Assess the Existence and Quality of Test Cases  
+## 📌 1. Check the Existence and Quality of Test Cases  
 ✅ **Identify existing tests:** Check if test cases already cover the defined scope.  
 📊 **Evaluate test coverage:** Use metrics like code coverage (e.g., via Jest Coverage) and functional coverage.  
 🔍 **Review test quality:** Ensure test cases are relevant, well-written, and up to date.  
