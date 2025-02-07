@@ -15,7 +15,11 @@ Select a strategy that aligns with your project's goals, complexity, and timelin
 - **Risk-Based Testing:** Prioritize tests based on areas with the highest risk.
 - **Behavior-Driven Development (BDD):** Align development and testing with business requirements using tools like Cucumber.
 - **Exploratory Testing:** Perform manual testing to uncover unexpected issues and edge cases.
-- **Test Automation:** Automate repetitive test cases to enhance speed and coverage.
+- **Test Automation:** 
+  • Automate repetitive and high-impact test cases to enhance speed, accuracy, and coverage.
+	•	Implement unit, integration, and end-to-end (E2E) tests to validate different levels of the system.
+	•	Ensure cross-browser and cross-device testing to maintain consistency across various environments.
+	•	Integrate automation into CI/CD pipelines for faster feedback and early bug detection.
 
 ### Combining Strategies for Effective Testing
 In my experience, combining strategies can improve the process:
