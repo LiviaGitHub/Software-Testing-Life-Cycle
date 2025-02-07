@@ -7,7 +7,7 @@ In the DevOps cycle, QA plays a critical role in ensuring the quality and reliab
 - Ensures quality is considered from the beginning by reviewing requirements and user stories.
 
 ### 2. **Development**
-- QA defines test cases and writes automated tests (unit, integration, UI).
+- QA defines test cases and writes automated tests (integration, UI).
 - Works with developers to integrate tests into the CI/CD pipeline for continuous testing.
 
 ### 3. **Build**
@@ -24,7 +24,7 @@ In the DevOps cycle, QA plays a critical role in ensuring the quality and reliab
 
 ### 6. **Deploy**
 - QA helps automate and validate the deployment process.
-- Runs tests after deployment to ensure that the system functions as expected in the production environment.
+- (Smoke Testing or Sanity Testing) Runs tests after deployment to ensure that the system functions as expected in the production environment.
 
 ### 7. **Monitor**
 - QA monitors production for issues, performance bottlenecks, or errors.
