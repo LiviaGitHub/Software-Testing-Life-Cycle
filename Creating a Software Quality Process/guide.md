@@ -8,7 +8,7 @@ Before implementing the quality process, it's essential to define clear objectiv
 - **Objectives:** What do you want to achieve? (e.g., reduce production defects by 30%, increase test coverage to 80%).
 - **Scope:** Identify the areas to be addressed (e.g., critical functionalities, performance, security).
 
-## 2. Choose a Software Testing Strategy
+## **2. Choose a Software Testing Strategy**
 Select a strategy that aligns with your project's goals, complexity, and timeline:
 
 - **Shift-Left Testing:** Start testing early to catch issues sooner, reducing defects and improving quality.

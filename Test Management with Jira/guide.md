@@ -1,9 +1,10 @@
-# Test Management with Jira
+## Test Management with Jira
+
 Manage test cases and bugs effectively with Jira.
 
 To use JIRA for obtaining test metrics, you need to configure it effectively and integrate it with testing tools to gather data on test cases, defects, coverage, and quality. Here's a step-by-step guide to using JIRA for test metrics:
 
-1. Configure JIRA to Manage Test Cases
+### 1. **Configure JIRA to Manage Test Cases**
 While JIRA is primarily designed for project and issue tracking, you can configure it to handle test cases:
 
 * Create Custom Issue Types:
@@ -17,7 +18,7 @@ While JIRA is primarily designed for project and issue tracking, you can configu
 * Use Testing Plugins:
     - Integrate JIRA with tools like Zephyr, Xray, or TestFLO, which are specifically designed to manage test cases. These plugins allow you to create, execute, and link test cases directly to user stories or requirements.
 
-2. Track Defects Accurately
+### **2. Track Defects Accurately**
 JIRA is highly effective for tracking defects, and you can optimize its use for detailed metrics:
 
 * Link Defects to Requirements or Test Cases:
@@ -29,7 +30,7 @@ JIRA is highly effective for tracking defects, and you can optimize its use for 
         - Priority (High, Medium, Low).
         - Defect Type (Functional, UI, Performance).
 
-3. Generate Metrics with JQL Filters
+### **3. Generate Metrics with JQL Filters**
 Use JQL (JIRA Query Language) to create queries that generate specific metrics.
 
 Example Queries:
@@ -46,10 +47,10 @@ issuetype = "Bug" AND severity = "Critical"
 *  Defects Resolved in the Last Month:
 issuetype = "Bug" AND status = "Resolved" AND resolved >= startOfMonth()
 
-4. Use Dashboards and Gadgets
+### **4. Use Dashboards and Gadgets**
     - Create personalized dashboards to visualize metrics in real-time.
 
-Steps:
+### **Steps:**
 
 Go to the "Dashboards" tab and click Create Dashboard.
 Add gadgets to display key metrics, such as:
@@ -62,7 +63,8 @@ Example Gadget Configuration:
 Filter: "Open Defects."
 Chart: Pie chart showing defect distribution by severity.
 
-5. Key Test Metrics in JIRA
+### **5. Key Test Metrics in JIRA**
+
 Here are some test metrics you can track and how to retrieve them in JIRA:
 
 Metric	How to Retrieve in JIRA
@@ -72,7 +74,7 @@ Defect Resolution Rate	JQL Filter: status = "Resolved".
 Reopened Defects	JQL Filter: status = "Reopened".
 Test Execution Rate	Zephyr/Xray: Execution metrics for test cases.
 
-6. Integrate JIRA with Testing Tools
+### **6. Integrate JIRA with Testing Tools**
 JIRA integrates with several tools to provide detailed test metrics:
 
 - Zephyr for JIRA:
