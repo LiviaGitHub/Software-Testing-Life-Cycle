@@ -6,7 +6,7 @@ A robust software quality process ensures that your product meets the desired re
 Before implementing the quality process, it's essential to define clear objectives and scope:
 
 - **Objectives:** What do you want to achieve? (e.g., reduce production defects by 30%, increase test coverage to 80%).
-- **Scope:** Identify the areas to be addressed (e.g., critical functionalities, performance, security).
+- **Scope:** Identify the areas that need to be addressed first. There may be multiple, so prioritize accordingly. (e.g., critical functionalities, performance, security).
 
 ## **2. Choose a Software Testing Strategy**
 Select a strategy that aligns with your project's goals, complexity, and timeline:
