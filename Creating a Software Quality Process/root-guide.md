@@ -6,6 +6,7 @@ A robust software quality process ensures that your product meets the desired re
 Before implementing the quality process, it's essential to define clear objectives and scope:
 
 - **Objectives:** What do you want to achieve? (e.g., reduce production defects by 30%, increase test coverage to 80%).
+    • [Check how to reduce bugs in production](https://github.com/LiviaGitHub/Software-Testing-Life-Cycle/tree/main/Creating%20a%20Software%20Quality%20Process/How%20to%20reduce%20bugs%20in%20production)
 - **Scope:** Identify the areas that need to be addressed first. There may be multiple, so prioritize accordingly. (e.g., critical functionalities, performance, security).
 
 ## **2. Choose a Software Testing Strategy**
