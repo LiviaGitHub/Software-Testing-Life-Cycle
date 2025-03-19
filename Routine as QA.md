@@ -14,7 +14,7 @@ Integrating **Shift Left Testing, Regression Testing, Agile Methodology, BDD, Ex
 
 ---
 
-## **🕘 Daily Standup (Agile Methodology)**  
+## **Daily Standup (Agile Methodology)**  
 - Join the **daily standup** with the team.  
 - Provide updates on testing progress and blockers.  
 - Collaborate with developers to resolve defects quickly.  
@@ -23,7 +23,7 @@ Integrating **Shift Left Testing, Regression Testing, Agile Methodology, BDD, Ex
 
 ---
 
-## **🕙 After Sprint Planning - Test Planning Documentation & Shift Left Testing**
+## **After Sprint Planning - Test Planning Documentation & Shift Left Testing**
 
 - **Review requirements** 
   - Review sprint tickets.  
@@ -45,7 +45,7 @@ Integrating **Shift Left Testing, Regression Testing, Agile Methodology, BDD, Ex
 
 ---
 
-## **🕛 Test Automation Development (CI/CD & Regression Testing)**
+## **Test Automation Development (CI/CD & Regression Testing)**
 - Implement **Test Automation**.  
 - Run tests locally **Dev environment** before committing.  
 - Push code to GitHub and trigger **CI/CD pipeline** **Staging environment**.  
@@ -73,7 +73,7 @@ jobs:
 
 ---
 
-## ** Exploratory Testing & Bug Analysis**
+## **Exploratory Testing & Bug Analysis**
 - Perform **exploratory testing** on new features and bug fixes.  
 - Identify **uncovered edge cases** and potential UX issues.  
 - Log defects in **JIRA**, including steps, logs, and screenshots.  
