@@ -1,8 +1,8 @@
-# **📅 My Work Routine as a QA Engineer**  
+# ** My Work Routine as a QA Engineer**  
 
 Integrating **Shift Left Testing, Regression Testing, Agile Methodology, BDD, Exploratory Testing, CI/CD, Sprint Planning, Retrospectives, Test Planning Documentation, Bug Analysis & Monitoring, and Releases**.  
 
-## **🗓 Weekly Agile Ceremonies & Planning**  
+## ** Weekly Agile Ceremonies & Planning**  
 
 ### **📌 Sprint Planning (Every Two Weeks)**
 - Participate in **Sprint Planning** with developers, product managers, and designers.  
@@ -73,7 +73,7 @@ jobs:
 
 ---
 
-## **🕒 Exploratory Testing & Bug Analysis**
+## ** Exploratory Testing & Bug Analysis**
 - Perform **exploratory testing** on new features and bug fixes.  
 - Identify **uncovered edge cases** and potential UX issues.  
 - Log defects in **JIRA**, including steps, logs, and screenshots.  
@@ -94,7 +94,7 @@ jobs:
 
 ---
 
-## **🕔 05:00 PM – Regression Testing & Pre-Release Validation**
+## **Regression Testing & Pre-Release Validation**
 - Run **automated regression tests** for signup, payment, and user profile.  
 - Perform **manual sanity checks** on critical workflows.  
 - Analyze test reports, investigate failures, and fix flaky tests.  
@@ -103,7 +103,7 @@ jobs:
 
 ---
 
-## **🕕 06:00 PM – Release Management & Monitoring**
+## **Release Management & Monitoring**
 - Validate release readiness:  
   - Are all tests passing? ✅  
   - Are major bugs resolved? ✅  
@@ -118,7 +118,7 @@ jobs:
 
 ---
 
-# **🌟 Summary: My QA Routine at Zattoo**
+# **Summary: My QA Routine**
 | Time  | Activity |
 |--------|------------|
 | **Weekly** | Sprint Planning, Retrospective, Test Plan Documentation, Bug Monitoring |
