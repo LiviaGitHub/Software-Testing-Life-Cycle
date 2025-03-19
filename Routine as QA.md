@@ -6,24 +6,15 @@ Integrating **Shift Left Testing, Regression Testing, Agile Methodology, BDD, Ex
 
 ### **📌 Sprint Planning (Every Two Weeks)**
 - Participate in **Sprint Planning** with developers, product managers, and designers.  
-- Review upcoming features for **user signup, payment, and user profile**.  
-- Define **test coverage, automation strategy, and potential risks**.  
-- Ensure all acceptance criteria are **testable** and plan necessary test cases.  
-
-✅ **Outcome:** A clear roadmap for testing efforts in the sprint.  
-
----
 
 ### **📌 Sprint Retrospective (Every Two Weeks)**
 - Reflect on what went well, what needs improvement, and next steps.  
 - Identify **testing bottlenecks** (e.g., flaky tests, slow regression suites).  
 - Discuss **process improvements**, such as adding more automation coverage.  
 
-✅ **Outcome:** A more efficient testing workflow for the next sprint.  
-
 ---
 
-## **🕘 09:00 AM – Daily Standup (Agile Methodology)**  
+## **🕘 Daily Standup (Agile Methodology)**  
 - Join the **daily standup** with the team.  
 - Provide updates on testing progress and blockers.  
 - Collaborate with developers to resolve defects quickly.  
@@ -32,28 +23,32 @@ Integrating **Shift Left Testing, Regression Testing, Agile Methodology, BDD, Ex
 
 ---
 
-## **🕙 10:00 AM – Test Planning Documentation & Shift Left Testing**
-- **Review requirements** for new features (Signup, Payment, User Profile).  
-- Write a **Test Plan** covering:
-  - Test scenarios (Functional, UI, API, Performance)  
-  - Automation strategy (What will be automated vs. manually tested?)  
-  - Risk analysis and mitigation strategies  
+## **🕙 After Sprint Planning - Test Planning Documentation & Shift Left Testing**
 
-🔹 **Example Test Plan for Signup Flow:**  
-| Test Case | Description | Expected Result | Test Type | Automated? |
-|-----------|------------|----------------|------------|------------|
-| TC01 | Sign up with valid email & password | User receives confirmation email | Functional | ✅ |
-| TC02 | Sign up with an invalid email | Error message displayed | Negative | ✅ |
-| TC03 | Sign up with an already registered email | Error message displayed | Negative | ✅ |
+- **Review requirements** 
+  - Review sprint tickets.  
+      - Ensure all acceptance criteria are **testable** and plan necessary test cases.  
+      - Add a checklist based on testing.
+      - Debrifing with PO or/and Developer (Make sute the ticket is cover).
+      - Potential risks **Add to the tickets past bugs that could be related**.
+  - Test plan.
+      - Define **automation strategy (API, E2E, and UI).**
+      - Add learnings from last Sprint and improvements that can be apllied on this Sprint.
+      - Potential risks **Is there time to finish all tests?**.
+
+- Write a **Test Plan** covering:
+  - Test scenarios (Add the name of the features - tests are organized in features, each feature has X numbers of test cases.).  
+  - Automation strategy (What will be automated vs. manually tested?) Add the new test cases here.  
+  - Risk analysis and mitigation strategies. Bugs related to the new relases.  
 
 ✅ **Outcome:** Well-defined testing strategy before development starts (**Shift Left**).  
 
 ---
 
-## **🕛 12:00 PM – Test Automation Development (CI/CD & Regression Testing)**
-- Implement **Playwright & Jest** test cases for signup, payment, and profile features.  
-- Run tests locally before committing.  
-- Push code to GitHub and trigger **CI/CD pipeline**.  
+## **🕛 Test Automation Development (CI/CD & Regression Testing)**
+- Implement **Test Automation**.  
+- Run tests locally **Dev environment** before committing.  
+- Push code to GitHub and trigger **CI/CD pipeline** **Staging environment**.  
 
 🔹 **Example CI/CD Workflow (GitHub Actions)**
 ```yaml
@@ -78,7 +73,7 @@ jobs:
 
 ---
 
-## **🕒 03:00 PM – Exploratory Testing & Bug Analysis**
+## **🕒 Exploratory Testing & Bug Analysis**
 - Perform **exploratory testing** on new features and bug fixes.  
 - Identify **uncovered edge cases** and potential UX issues.  
 - Log defects in **JIRA**, including steps, logs, and screenshots.  
